@@ -20,8 +20,8 @@ nav{
     align-items: center;
 }
 .logo img{
-    height: 40px;
-    margine: right 10px;
+    height: ;
+    margin: right 10px;
 
 }
 .logo span{
@@ -29,6 +29,10 @@ nav{
     font-size: 24px;
     font-weight: bold;
 
+}
+.nav-links{
+    list-style: none;
+    display: flex;
 }
 .nav-links li {
     margin-left: 20px;
@@ -41,7 +45,7 @@ nav{
     transition: color 0.3s;
 }
 .nav-links a:hover{
-    color: #d7ccc8;
+    color: #ddd;
 }
 
 
