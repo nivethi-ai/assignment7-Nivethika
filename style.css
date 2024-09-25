@@ -47,5 +47,97 @@ nav{
 .nav-links a:hover{
     color: #ddd;
 }
+    
+
+
+.main-container{
+    background-color: #3e2723;
+    width: 10,000px;
+    height: 400px;
+    display: flex;
+
+}
+.text{
+    color: white;
+}
+.button1{
+    border-radius: 15px;
+}
+.button2{
+    border-radius: 15px;
+}
+.main{
+    background-color: rgb(73, 10, 10);
+    
+
+}
+.tittle{
+    text-decoration: none;
+    float:left;
+    padding: 25px;
+    color: white;
+    justify-content: center;
+    
+
+}
+*{
+    margin:0;
+    padiing:0;
+    box-sizing: border-box;
+}
+.menu-container{
+    text-align: center;
+    padding:50px;
+    display: flex;
+    background-color: #3e2723;
+    color: white;
+    margin: 45px;
+}
+h1{
+    margin-bottom:30px;
+    font-size: 3em;
+}
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.menu-item{
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.menu-item img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+p{
+    font-size:1em;
+    line-height: 1.5;
+}
+.brands{
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+.coffee{
+    display: flex;
+    background-color:#3e2723;
+    color: white;
+    padding: 20px;
+    gap:50px;
+
+}
+
+
+
+
 
 
